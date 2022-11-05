@@ -1,0 +1,308 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Quicksand', sans-serif; */
+/* font-family: 'Nixie One', cursive; */
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted #bbbbbb 4px;
+    border-bottom: none;
+    margin: 1rem auto 0;
+    width: 9%;
+}
+
+input {
+
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    color: black !important;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+input:focus {
+    background-color: rgb(235, 235, 235) !important;
+}
+
+::selection {
+    background-color: rgb(255, 142, 142);
+}
+
+
+
+
+/*************************************** NAVBAR SECTION *************************************/
+
+#landing-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.4)), url(Images/henry-co-cZpvuwwQQg0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.my-navbar {
+    background-color: transparent !important;
+    padding: 0.5rem 4rem 0 1.5rem;
+}
+
+#navbar-logo {
+    width: 25vw;
+}
+
+.my-navbar-item {
+    padding: 0 1rem 0 .5rem;
+}
+
+.my-navbar-link {
+    color: white !important;
+    font-size: 1.1rem;
+}
+
+.my-navbar-link:hover {
+    color: rgb(103, 103, 103) !important;
+}
+
+/******************************************* LANDING CONTENT SECTION  **************************/
+
+
+.landing-content {
+    text-align: center;
+    margin: 4rem 3% 0;
+
+}
+
+.small-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(241, 241, 241);
+    padding: 0 1rem;
+}
+
+.tittle {
+    font-size: 5rem;
+    color: white;
+    font-weight: 900;
+    padding: 2rem 0.5rem;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.my-btn {
+    margin: 1rem 1rem 5rem;
+    padding: 0.4rem 1.3rem;
+    font-family: 'Quicksand', cursive;
+}
+
+.my-btn:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border-color: rgb(103, 103, 103);
+
+}
+
+/******************************************* SERVICE CONTENT SECTION  **************************/
+
+#service-section {
+    text-align: center;
+}
+
+.service-heading {
+    padding: 2.7rem 3% 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+    text-shadow: 1px 1px rgb(148, 148, 148);
+}
+
+.serv-hr {
+    border: solid 4px;
+    border-bottom: none;
+    margin: 0 auto 2rem;
+    width: 12%;
+}
+
+.service-row {
+    margin: 3%;
+}
+
+.service-img {
+    margin-top: .7rem;
+    width: 60%;
+    box-shadow: 6px 6px rgba(196, 196, 196, 0.815);
+}
+
+.service-subhead {
+    padding: 2rem 0 1rem 0;
+    font-family: 'Nixie One', cursive;
+    font-weight: 900;
+    font-size: 1.9rem;
+
+}
+
+.service-para {
+    color: gray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.15rem;
+    padding: 0 5%;
+}
+
+.service-btn {
+    margin: 1rem 0 2rem 0;
+    padding: 1.2% 1.5rem;
+    /* border: rgb(226, 102, 120); */
+    /* background-color: rgb(226, 102, 120); */
+}
+
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card-col {
+    padding: 3% 2%;
+}
+
+.card-header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 3% 10%;
+    color: #112d4e;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+#pricing h5 {
+
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#pricing h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+#pricing p {
+    line-height: 2.2;
+}
+
+/********************************  CALL TO ACTION  SECTION  **************************/
+#cta {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.4)), url(Images/yannes-kiefer-BO7VExGjUuU-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.cta-head {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.cta-btn {
+    background-color: rgb(255, 30, 64);
+}
+
+/********************************  SIGN UP SECTION  **************************/
+
+#sign-up {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/shane-rounce-MwKhY91v2Dc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.signup-heading {
+    text-shadow: 2px 2px rgb(119, 119, 119);
+    font-size: 2.3rem;
+}
+
+.sign-up-label {
+    font-size: 1.2rem !important;
+}
+
+.sign-up-btn {
+    border: rgb(226, 102, 120);
+    background-color: rgb(226, 102, 120);
+    color: white;
+
+}
+
+.sign-up-btn:hover {
+    background-color: rgb(255, 30, 64);
+    color: white;
+}
+
+
+
+
+
+/******************************** MEDIA QUERIES SECTION  **************************/
+
+@media (max-width:630px) {
+    .landing-content {
+        padding: 9% 0;
+    }
+
+    .small-heading {
+        font-size: 1.3rem;
+    }
+
+    .tittle {
+        font-size: 3.16rem;
+    }
+
+    .service-heading {
+        font-size: 2.3rem;
+    }
+
+    .sign-up-form {
+        padding: 0 0 0 10%;
+    }
+
+
+    input {
+        width: 85% !important;
+    }
+
+}
+
+@media (max-width:991px) {
+    .cta-head {
+        font-size: 2rem;
+    }
+
+    #landing-section {
+        height: 100%;
+    }
+
+    #cta {
+        height: 90vh;
+    }
+}
